@@ -1,0 +1,378 @@
+body {
+    color: #ffffff;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.main-header {
+    background-color: #54add8; 
+    padding: 0px 87px;
+    width: 852px;
+    height: 40px;
+}
+
+.site-navigation {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.site-navigation > li {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+.site-navigation li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 27px;
+    padding: 5px;
+    border: 1px solid red;
+    margin-left: -5px;
+}
+
+
+
+.user-navigation {
+    padding-top: 5px;
+}
+
+
+
+
+.site-navigation > li,
+.user-navigation > li {
+    
+
+    
+    padding: 0;
+    margin: 0;
+}
+.user-navigation li a {
+    border-bottom: #a8d5eb 1px solid;
+
+    
+
+    
+  
+}
+
+.ul-container > a::after {
+    content: url(../img/triangle.png);
+    margin-left: 5px;
+    margin-right: 0;
+    position: relative;
+    top: -2px;
+}
+.tickets-guide {
+    position: absolute;
+    display: none;
+    
+
+}
+
+
+
+
+
+
+.site-navigation li:hover {
+    background-color: #f75c00;
+}
+.tickets_guide li {
+    
+    float: none;
+
+
+}
+.user-navigation {
+    font-family: Tahoma, Geneva, Verdana, serif;
+    float: right;
+    list-style:none; 
+    padding-left: 0;
+    margin: 0px;
+}
+
+.tickets_guide {
+    margin-bottom: 2px;
+    display: none;
+    list-style: none;
+    width: 165px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
+    background-color: white;
+    padding: 0px;
+}
+.tickets_guide li {
+    border-top: 1px solid #bfd8eb;
+    padding: 0px 0px;
+    width: px;
+}
+.tickets_guide li:hover {
+    background-color: #bfd8eb;
+}
+
+.tickets_guide li a {
+    display: block;
+    padding: 2px 15px;
+    color: black;
+    
+    text-decoration: none;
+    text-transform: none;
+    font-family: Tahoma, Geneva, Verdana, serif;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: normal;
+}
+
+
+
+.tickets_guide {
+    display: block;
+}
+
+
+
+button {
+    background-color: #0085c5;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-top: px;
+    border: 0px;
+    color: #94c4db;
+    
+    font-size: 14px;
+    line-height: 27px;
+    ;  
+
+}
+.city {
+    text-decoration-style: dashed;
+    padding: 0px;
+}
+.city:hover {
+    color: white;
+}
+.user-navigation li {
+    display: inline-block;
+    
+    
+    
+   
+    padding: 0px 0px;
+    margin: 0px;
+}
+.user-navigation a {
+    font-family: Tahoma, Geneva, Verdana, serif;
+    font-size: 14px;
+    line-height: 27px;
+    color: #a8d5eb;
+    text-decoration: none; 
+    font-weight: normal;
+
+    margin-right: 0px;
+
+}
+
+.user-navigation li:before {
+    content: url(../img/User.png);
+    position: relative;
+    top: 4px;
+    right: 10px;
+    
+    
+
+}
+
+
+
+
+.main-page {
+    background-color: #0085c5;
+    width: 852px;
+    
+    padding: 0 87px;
+    padding-bottom: 50px;
+
+}
+
+legend {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 45px 0;
+    line-height: 27px;
+    color: white;
+    text-align: center;
+    
+}
+.first-line input {
+    width: 400px;
+}
+input,
+select {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0px;
+    color: #a9a9a9;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 0;
+}
+.cur {
+    color: black;
+    text-transform: uppercase;
+}
+fieldset {
+    border: none;
+    width: 850px;
+    clear: both;
+    margin: 0 0px;
+    padding: 0;
+}
+
+.arrival input {
+    max-width: 350px;
+}
+.departure input {
+    max-width: 350px;
+}
+
+
+
+
+.return-date {
+    background-color: #1395d3;
+    border: 1px solid #0076ad;
+}
+
+label, 
+span {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+label a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.departure,
+.arrival {
+    display: inline-block;
+    
+    padding: 10px 0;
+    width: 380px;
+    margin-left: 0px;
+
+}
+.departure {
+    float: left;
+}
+.arrival {
+    float: right;
+}
+ 
+    
+.reverse {
+    
+    position: relative;
+    top: 30px;
+    left: 8px;
+    margin: 20px;
+
+    padding: 15px 15px;
+    background-image: url(../img/reverse-inactive.png);
+    background-repeat: no-repeat;
+    
+}
+.reverse:hover {
+    background-image: url(../img/reverse-hover.png);
+    background-repeat: no-repeat;
+}
+
+.date {
+    
+    clear: both;
+}
+
+.second-line {
+    display: inline-block;
+}
+.send-button {
+    background:-webkit-linear-gradient(top, #faad49, #f76105);
+    border: 1px solid #f76105;
+    color: #ffffff;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    font-weight: 27px;
+    padding: 10px 45px;
+    border-radius: 5px;
+
+}
+.send-button::before {
+    content: url('../img/Search.png');
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+input[type="checkbox"] {
+    background-color: #0b92d2;
+    padding: 15px;
+   
+
+}
+input[type="checkbox"]::after {
+    position: absolute;
+    content: "";
+    background-color: #0b92d2;
+    transform: rotate(45deg);
+    top: 3px;
+    left: 83px;
+    border-radius: 1px;
+    width: 10px;
+    height: 10px;
+
+}
+.second-line div {
+    display: inline-block;
+
+}
+.date {
+    width: 167px;
+    margin-right: 30px;
+
+}
+input[type="date"] {
+    width: 136px;
+    
+}
+.checkbox label {
+    
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    height: 30px;
+    background-color: #0b92d2;
+    border-radius: 5px;
+}
+.checkbox input {
+    position: relative;
+    right: -30px;
+    
+}
+.currency {
+    width: 87px;
+    margin-left: 15px;
+    margin-right: 45px;
+}
+.cur {
+    height: 47px;
+    margin-right: 25px;
+}
