@@ -36,8 +36,7 @@ body {
     padding: 5px 10px;
 }
 
-.site-navigation li:hover,
-.user-navigation:hover {
+.site-navigation li:hover {
     background-color: #f75c00;
 }
 
@@ -58,8 +57,7 @@ body {
     font-family: Tahoma, Geneva, Verdana, serif;
     font-size: 14px;
     line-height: 30px;
-    color: #a8d5eb;
-    text-decoration: underline; 
+    color: #a8d5eb; 
     font-weight: normal;
     
 
@@ -80,7 +78,7 @@ body {
     top: -2px;
 }
 
-.tickets-guide:hover .tickets__guide {
+.ul-container:hover .sub-menu {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -89,7 +87,7 @@ body {
      
 }
 
-.tickets__guide {
+.sub-menu {
     display: none;
     list-style: none;
     border: 1px solid #bfd8eb;
@@ -99,21 +97,21 @@ body {
     padding: 0px;
 }
 
-.tickets__guide li {
+.sub-menu li {
     border-bottom: 1px solid #bfd8eb; 
     padding: 2px 10px;
     
 }
 
-.tickets__guide li:last-child {
+.sub-menu li:last-child {
     border-bottom: none;
 }
 
-.tickets__guide li:hover {
+.sub-menu li:hover {
     background-color: #bfd8eb;
 }
 
-.tickets__guide a {
+.sub-menu a {
 
     color: black;
     text-decoration: none;
